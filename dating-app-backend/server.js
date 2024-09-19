@@ -8,7 +8,7 @@ const port = process.env.PORT || 8001;
 app.use(express.json());
 app.use(Cors());
 const connection_url =
-  "mongodb+srv://lokeshpspsl522:7w8AnaYOB0QAjNYB@mern-dating-app-cluster.ym8dk.mongodb.net/?retryWrites=true&w=majority&appName=mern-dating-app-cluster";
+  "mongodb+srv://admin:yourpassword@mern-dating-app-cluster.ym8dk.mongodb.net/?retryWrites=true&w=majority&appName=mern-dating-app-cluster";
 mongoose
   .connect(connection_url, {})
   .then((res) => {
